@@ -5,8 +5,8 @@ export const stripe = new Stripe(
     {
         apiVersion: "2022-08-01",
         appInfo: {
-            name: "João Carlos Ribeiro Guimarães",
-            version: "10.14.0"
+            name: "ignews",
+            version: "0.1.0"
         },
     }
 )
