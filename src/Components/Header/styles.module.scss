@@ -15,7 +15,7 @@
     nav{
         margin-left: 5rem;
         height: 5rem;
-        
+
         a{
             display: inline-block;
             position: relative;
@@ -23,36 +23,36 @@
             height: 5rem;
             line-height: 5rem;
             color: var(--gray-300);
-            
-            transition: 0.2s;
 
-            & + a{
+            transition: color 0.2s;
+
+            & + a {
                 margin-left: 2rem;
             }
 
             &:hover{
-                color: white;
+                color: var(--white);
             }
 
             &.active{
-                color: var(--withe);
+                color: var(--white);
                 font-weight: bold;
             }
 
             &.active::after{
-                content: "";
+                content: '';
                 height: 3px;
-                border-radius: 3px 3px 0 0;
+                border-radius: 3px 3px 0 0 ;
                 width: 100%;
                 position: absolute;
                 bottom: 1px;
                 left: 0;
-                background-color: var(--yellow-500);
+                background: var(--yellow-500);
             }
         }
     }
 
-    button{
+    button {
         margin-left: auto;
     }
 }
